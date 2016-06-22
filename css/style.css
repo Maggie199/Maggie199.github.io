@@ -1353,6 +1353,8 @@ ul.info-list li strong {
 
 #close, #modal-close {
     font: 100 40px Sans-serif;
+    border: none;
+    padding: 0 15px 0 10px;
 }
 
 #close:hover {
@@ -1372,7 +1374,7 @@ ul.info-list li strong {
     cursor: pointer;
     font-size: 19px;
     font-weight: 500;
-    padding: 0 15px;
+    padding: 0 10px;
     color: #333;
     border-right: 1px solid #ddd;
 }
