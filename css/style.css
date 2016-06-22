@@ -305,11 +305,6 @@ h2.portfolio.menu-item:before {
     content: '02';
 }
 
-@media (min-width: 768px)
-h2.portfolio.menu-item:before {
-    color: #333;
-}
-
 h2.resume.menu-item:before {
     content: '03';
 }
@@ -334,15 +329,6 @@ h2.portfolio.menu-item:hover:after {
     background: #F34452;
 }
 
-@media (min-width: 768px)
-h2.portfolio.menu-item {
-    color: #333;
-}
-
-@media (min-width: 768px)
-h2.portfolio.menu-item:after {
-    background: #333;
-}
 /* -------------------------
         3. NAME BLOCK
 ------------------------- */
@@ -1500,6 +1486,15 @@ ul.info-list li strong {
 		width: 880px;
 		left: 700px;
 	} 
+
+    h2.portfolio.menu-item:before, 
+    h2.portfolio.menu-item{
+        color: #333;
+    }
+
+    h2.portfolio.menu-item:after {
+        background: #333;
+    }
 }
 
 @media (min-width:1280px) and (max-width:1919px) {
@@ -1542,6 +1537,15 @@ ul.info-list li strong {
         transform: rotate(-34deg);
         left: 1067px;
         top: 48px;
+    }
+
+    h2.portfolio.menu-item:before, 
+    h2.portfolio.menu-item{
+        color: #333;
+    }
+
+    h2.portfolio.menu-item:after {
+        background: #333;
     }
 }
 
@@ -1594,6 +1598,15 @@ ul.info-list li strong {
 		width:350px;
 		height: 300px;
     }
+
+    h2.portfolio.menu-item:before, 
+    h2.portfolio.menu-item{
+        color: #333;
+    }
+
+    h2.portfolio.menu-item:after {
+        background: #333;
+    }
 }
 
 @media (min-width:981px) and (max-width:1024px) {
@@ -1636,6 +1649,15 @@ ul.info-list li strong {
         transform: rotate(-34deg);
         left: 365px;
         top: 538px;
+    }
+
+    h2.portfolio.menu-item:before, 
+    h2.portfolio.menu-item{
+        color: #333;
+    }
+
+    h2.portfolio.menu-item:after {
+        background: #333;
     }
 }
 
@@ -1683,6 +1705,15 @@ ul.info-list li strong {
 	
 	.project {
 		width: 50%;
+    }
+
+    h2.portfolio.menu-item:before, 
+    h2.portfolio.menu-item{
+        color: #333;
+    }
+
+    h2.portfolio.menu-item:after {
+        background: #333;
     }
 }
 
