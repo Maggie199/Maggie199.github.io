@@ -303,6 +303,10 @@ h2.about.menu-item:before {
 
 h2.portfolio.menu-item:before {
     content: '02';
+}
+
+@media (min-width: 768px)
+h2.portfolio.menu-item:before {
     color: #333;
 }
 
@@ -330,11 +334,12 @@ h2.portfolio.menu-item:hover:after {
     background: #F34452;
 }
 
-
+@media (min-width: 768px)
 h2.portfolio.menu-item {
     color: #333;
 }
 
+@media (min-width: 768px)
 h2.portfolio.menu-item:after {
     background: #333;
 }
@@ -1683,7 +1688,7 @@ ul.info-list li strong {
 
 @media (max-width:800px) and (max-height:600px) {
 	.home {
-		background: url(../images/bg.jpg) #333 30% 30%;
+		background: url(../images/background.jpg) #333 30% 30%;
 		overflow-y: scroll;
 	}
 
@@ -1755,7 +1760,7 @@ ul.info-list li strong {
 @media (max-width:768px) {
 
 	.home {
-		background: url(../images/bg.jpg) #333 30% 30%;
+		background: url(../images/background.jpg) #333 30% 30%;
 	}
 
 	.name-block,
