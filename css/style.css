@@ -1354,6 +1354,7 @@ ul.info-list li strong {
 #close, #modal-close {
     font: 100 40px Sans-serif;
     border: none;
+    padding: 0 11px 0 10px;
 }
 
 #close:hover {
