@@ -892,6 +892,129 @@ ul.info-list li strong {
     width: 100%;
 }
 
+.rk-portfolio-cover {
+  background-position: center center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+          align-items: flex-end;
+  height: 100vh;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+@media (min-width: 40em) {
+  .rk-portfolio-cover {
+    padding-bottom: 2.5rem;
+  }
+}
+
+.rk-portfolio--inner img {
+  width: 100%;
+}
+
+.rk-portfolio-title {
+  letter-spacing: .0359em;
+}
+
+.rk-portfolio-category {
+  letter-spacing: .021em;
+}
+
+.rk-portfolio-inner-client span {
+  letter-spacing: .05em;
+}
+
+.rk-portfolio-inner-website {
+  letter-spacing: .05em;
+}
+
+.rk-portfolio-inner-date {
+  letter-spacing: .02em;
+}
+
+.rk-portfolio-info {
+  margin-top: 4.9rem;
+}
+
+.rk-portfolio-inner-title {
+  margin-top: .2em;
+}
+
+.rk-portfolio-details p {
+  margin-bottom: .4rem;
+}
+
+.item-inside__meta {
+  text-align: center;
+}
+.item-inside__meta--contrast:before {
+  background-color: rgba(255, 255, 255, .3);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.item-inside__meta .rk-portfolio-title,
+.item-inside__meta .rk-portfolio-category {
+  position: relative;
+  z-index: 2;
+}
+
+.inner-box-1 {
+  margin-top: 3.4rem;
+}
+
+.inner-box-3 {
+  margin-top: 6.6rem;
+}
+
+.inner-box-4 {
+  margin-top: 6rem;
+}
+
+.item-inside-1 {
+  background-image: url("../img/project-1.jpg");
+  background-position: 50% 100%;
+  background-size: 350%;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+  .item-inside-1 {
+    background-image: url("../img/project-1h.jpg");
+  }
+}
+@media (min-width: 40em) {
+  .item-inside-1 {
+    background-size: 150%;
+  }
+}
+
+.post-inside-1 {
+  background-image: url("../img/post-1.jpg");
+}
+
+#layout-grid:checked ~ .rk-portfolio,
+#layout-grid:checked ~ .rk-blog {
+  -webkit-animation: op2 .5s;
+          animation: op2 .5s;
+}
+
+#layout-base:checked ~ .rk-portfolio {
+  -webkit-animation: op .5s;
+          animation: op .5s;
+}
+
 /* -------------------------
         6. RESUME BLOCK
 ------------------------- */
