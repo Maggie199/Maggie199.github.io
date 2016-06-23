@@ -901,7 +901,7 @@ ul.info-list li strong {
     background-image: url("../images/portfolio/bio-rad/header.png");
 }
 
-.poster:before {
+.block-content.bio-rad {
     content:'';
     display:block;
     position:absolute;
