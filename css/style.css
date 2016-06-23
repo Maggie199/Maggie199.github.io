@@ -861,7 +861,7 @@ ul.info-list li strong {
 }
 
 .project-title h2 {
-    margin: 250px 0 10px 20px;
+    margin: 320px 0 10px 20px;
     color: #fff;
     font-size: 35px;
 }
@@ -900,7 +900,7 @@ ul.info-list li strong {
     background-size:cover;
     background-position:center;
     overflow:hidden;
-    min-height: 50vh;
+    min-height: 55vh;
     margin: -35px -50px 0;
     background-image: url("../images/portfolio/bio-rad/header.png");
 }
