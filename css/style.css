@@ -859,15 +859,16 @@ ul.info-list li strong {
     box-shadow: none;
     outline: none;
 }
-.project-title {
+
+.project-title h2 {
     margin: 250px 0 10px 20px;
     color: #fff;
-}
-.project-title h2 {
     font-size: 35px;
 }
 .project-title .tags {
 	font-weight: 700;
+    color: #fff;
+    margin-left: 20px;
 	font-size: 20px;
 }
 .project-description {
@@ -911,8 +912,10 @@ ul.info-list li strong {
     left:0;
     bottom:0;
     right:0;
+    position: absolute;
     background:rgba(26,26,26,0.5); /* Adds an overlay to the image */
 }
+
 /* -------------------------
         6. RESUME BLOCK
 ------------------------- */
