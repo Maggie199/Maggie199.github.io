@@ -917,6 +917,37 @@ ul.info-list li strong {
     background:rgba(26,26,26,0.5); /* Adds an overlay to the image */
 }
 
+
+/* ================ Services Section ================ */
+#section-services {
+    position:relative;
+    background-color: #333333;
+    color: #e5e5e5;
+}
+
+.container.services {
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+
+.service {
+    padding-bottom: 48px;
+}
+
+.service-icon {
+    float:left;
+    width: 30%;
+}
+
+.service-desc {
+    display:table;
+}
+
+.service-desc h4 {
+    margin-top: 0;
+}
+
 /* -------------------------
         6. RESUME BLOCK
 ------------------------- */
