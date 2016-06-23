@@ -985,18 +985,18 @@ ul.info-list li strong {
   margin-top: 6rem;
 }
 
-.item-inside-1 {
+.poster {
   background-image: url("../images/portfolio/bio-rad/header3.png");
   background-position: 50% 100%;
   background-repeat: no-repeat;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
-  .item-inside-1 {
+  .poster {
     background-image: url("../images/portfolio/bio-rad/header3.png");
   }
 }
 
-.item-inside-1:before {
+.poster:before {
     content:'';
     display:block;
     position:absolute;
