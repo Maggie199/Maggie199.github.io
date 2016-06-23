@@ -902,7 +902,7 @@ ul.info-list li strong {
     background-position:center;
     overflow:hidden;
     min-height: 55vh;
-    margin: -35px -50px 0;
+    margin: -35px -50px -50px;
     background-image: url("../images/portfolio/bio-rad/header.png");
 }
 
@@ -921,13 +921,12 @@ ul.info-list li strong {
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
-    background-color: #333333;
-    color: #e5e5e5;
 }
 
 .container.services {
-    padding-top: 120px;
+    padding-top: 20px;
     padding-bottom: 72px;
+    width: 100%;
 }
 
 
