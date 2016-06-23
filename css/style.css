@@ -898,6 +898,7 @@ ul.info-list li strong {
     background-position:center;
     overflow:hidden;
     min-height: 50vh;
+    background-image: url("../images/portfolio/bio-rad/biorad-header.png");
 }
 
 .poster:before {
