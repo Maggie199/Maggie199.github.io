@@ -907,7 +907,7 @@ ul.info-list li strong {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
           align-items: flex-end;
-  height: 100vh;
+  height: 500px;
   padding-bottom: 1.5rem;
   width: 100%;
 }
@@ -970,6 +970,7 @@ ul.info-list li strong {
 .item-inside__meta .rk-portfolio-category {
   position: relative;
   z-index: 2;
+  color: #fff;
 }
 
 .inner-box-1 {
