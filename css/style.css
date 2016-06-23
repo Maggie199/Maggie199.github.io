@@ -996,19 +996,6 @@ ul.info-list li strong {
   }
 }
 
-.item-inside-1:before {
-    content:'';
-    display:block;
-    position:absolute;
-    width:100%;
-    height:100%;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
-    background:rgba(26,26,26,0.5); /* Adds an overlay to the image */
-}
-
 .post-inside-1 {
   background-image: url("../img/post-1.jpg");
 }
