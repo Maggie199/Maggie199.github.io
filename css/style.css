@@ -902,6 +902,7 @@ ul.info-list li strong {
     background-position:center;
     overflow:hidden;
     min-height: 55vh;
+    margin: -35px -50px 0;
     background-image: url("../images/portfolio/bio-rad/header.png");
 }
 
@@ -1460,7 +1461,7 @@ ul.info-list li strong {
 
 .content {
     position: relative;
-    padding: 65px 0 0;
+    padding: 100px 50px 50px;
     height: auto;
     overflow: hidden;
 }
