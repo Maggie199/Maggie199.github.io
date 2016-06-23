@@ -984,15 +984,12 @@ ul.info-list li strong {
 .inner-box-4 {
   margin-top: 6rem;
 }
-.poster {
-    background-image: url("../images/portfolio/bio-rad/header3.png");
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
-    min-height: 50vh;
-}
 
+.poster {
+  background-image: url("../images/portfolio/bio-rad/header3.png");
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   .poster {
     background-image: url("../images/portfolio/bio-rad/header3.png");
