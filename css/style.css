@@ -985,20 +985,21 @@ ul.info-list li strong {
 }
 
 .step-no {
-    width: 95px;
-    height: 95px;
+    width: 85px;
+    height: 85px;
     border: 2px solid;
     border-radius: 50%;
 }
 
 .step-no .no-inner {
-    font-size: 72px;
-    line-height: 86px;
+    font-size: 62px;
+    line-height: 76px;
 }
 
 .step-details .step-title {
     margin-top: 0;
     margin-bottom: 24px;
+    color: #fff;
 }
 
 .step-details .step-description {
