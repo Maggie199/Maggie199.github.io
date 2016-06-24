@@ -971,6 +971,10 @@ ul.info-list li strong {
     color:#e5e5e5;
 }
 
+.step-even .step-title{
+    color: #fff;
+}
+
 .step-even .step-desc {
     float:right;
 }
