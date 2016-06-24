@@ -963,14 +963,13 @@ ul.info-list li strong {
     width: 100%;
 }
 .section-step {
-    background-color:#333;
-    color:#e5e5e5;
+    background-color:#f9f9f9;
     margin: 0 -50px;
 }
 
 .step-even {
-    background-color:#f9f9f9;
-    color:#666;
+    background-color:#333;
+    color:#e5e5e5;
 }
 
 .step-even .step-desc {
