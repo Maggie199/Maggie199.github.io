@@ -608,6 +608,7 @@ ul.info-list li strong {
 .service {
     text-align: center;
     margin: 25px 0;
+    padding-bottom: 30px;
 }
 
 .service h4 {
@@ -619,6 +620,8 @@ ul.info-list li strong {
     font-size: 30px;
     margin-bottom: 10px;
     color: #F34452;
+    float:left;
+    width: 30%;
 }
 
 .awards img {
@@ -923,15 +926,6 @@ ul.info-list li strong {
 #section-services {
     position:relative;
     color: #333;
-}
-
-.service {
-    padding-bottom: 48px;
-}
-
-.service-icon {
-    float:left;
-    width: 30%;
 }
 
 .service-desc {
