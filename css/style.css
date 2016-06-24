@@ -921,6 +921,7 @@ ul.info-list li strong {
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
+    color: #333;
 }
 
 .service {
@@ -941,7 +942,6 @@ ul.info-list li strong {
 }
 
 .section-title h3, .section-title h4 {
-    color: #F4F4F4;
     border-top: 1px solid;
     border-bottom: 1px solid;
     display: inline-block;
