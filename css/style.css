@@ -922,8 +922,12 @@ ul.info-list li strong {
     background-image: url("../images/portfolio/bio-rad/header1.jpeg");
 }
 
-.bio-rad .project-media .section-title {
+.bio-rad .project-media {
     background-color: #333;
+}
+
+.bio-rad .project-media .section-title {
+    padding-bottom: 50px;
     color: #fff;
 }
 /* ================ Services Section ================ */
