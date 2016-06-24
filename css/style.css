@@ -878,7 +878,6 @@ ul.info-list li strong {
 
 .project-media {
 	margin: 0 -50px;
-	max-width: 780px;
 }
 
 .video-container {
@@ -999,7 +998,6 @@ ul.info-list li strong {
 .step-details .step-title {
     margin-top: 0;
     margin-bottom: 24px;
-    color: #fff;
 }
 
 .step-details .step-description {
