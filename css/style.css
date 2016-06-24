@@ -903,7 +903,6 @@ ul.info-list li strong {
     overflow:hidden;
     min-height: 55vh;
     margin: -35px -50px -50px;
-    background-image: url("../images/portfolio/bio-rad/header.png");
 }
 
 .layer {
@@ -917,6 +916,9 @@ ul.info-list li strong {
     background:rgba(26,26,26,0.5); /* Adds an overlay to the image */
 }
 
+.bio-rad .poster {
+    background-image: url("../images/portfolio/bio-rad/header1.JPEG");
+}
 
 /* ================ Services Section ================ */
 #section-services {
