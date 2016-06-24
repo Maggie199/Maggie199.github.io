@@ -928,6 +928,9 @@ ul.info-list li strong {
 
 .bio-rad .project-media .section-title {
     padding-bottom: 50px;
+}
+
+.bio-rad .project-media .section-title .h3{
     color: #fff;
 }
 /* ================ Services Section ================ */
