@@ -957,6 +957,11 @@ ul.info-list li strong {
 }
 
 /* ================ Step-1,step-2,step-3 Sections ================ */
+.container.step {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width: 100%;
+}
 .section-step {
     background-color:#333;
     color:#e5e5e5;
