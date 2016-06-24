@@ -955,6 +955,80 @@ ul.info-list li strong {
 .center {
     text-align: center;
 }
+
+/* ================ Step-1,step-2,step-3 Sections ================ */
+.section-step {
+    background-color:#f9f9f9;
+}
+
+.step-even {
+    background-color:#333;
+    color:#e5e5e5;
+}
+
+.step-even .step-desc {
+    float:right;
+}
+
+.step-even .step-img {
+    float:right;
+}
+
+.step-video {
+    overflow:hidden;
+}
+
+.step-no {
+    width: 95px;
+    height: 95px;
+    border: 2px solid;
+    border-radius: 50%;
+}
+
+.step-no .no-inner {
+    font-size: 72px;
+    line-height: 86px;
+}
+
+.step-details .step-title {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.step-details .step-description {
+    margin-bottom: 48px;
+}
+
+.step-details .sub-steps {
+    margin-left: 30px;
+}
+
+.step-details .sub-steps li {
+    margin-bottom: 24px;
+}
+
+.sub-steps .icon {
+    float:left;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    line-height: 40px;
+    padding: 0px 13px;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+.sub-steps .sub-text {
+    border: 1px solid;
+    height: 40px;
+    line-height: 40px;
+    display: table;
+    padding: 0 10px;
+}
+
+
 /* -------------------------
         6. RESUME BLOCK
 ------------------------- */
