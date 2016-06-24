@@ -875,10 +875,10 @@ ul.info-list li strong {
 .project-description {
 	text-align: justify;
 }
+
 .project-media {
-	margin: 0 auto;
+	margin: 0 -50px;
 	max-width: 780px;
-	margin-top: 30px;
 }
 
 .video-container {
