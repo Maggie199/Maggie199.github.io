@@ -940,6 +940,16 @@ ul.info-list li strong {
     margin-top: 0;
 }
 
+.section-title h3, .section-title h4 {
+    color: #F4F4F4;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: inline-block;
+    margin-top: 0;
+    padding: 8px 0;
+    
+}
+
 /* -------------------------
         6. RESUME BLOCK
 ------------------------- */
