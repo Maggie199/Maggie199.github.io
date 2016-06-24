@@ -958,12 +958,13 @@ ul.info-list li strong {
 
 /* ================ Step-1,step-2,step-3 Sections ================ */
 .section-step {
-    background-color:#333;  
+    background-color:#333;
+    color:#e5e5e5;
 }
 
 .step-even {
     background-color:#f9f9f9;
-    color:#e5e5e5;
+    color:#666;
 }
 
 .step-even .step-desc {
