@@ -957,8 +957,7 @@ ul.info-list li strong {
 
 /* ================ Step-1,step-2,step-3 Sections ================ */
 .container.step {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 80px 0;
     width: 100%;
 }
 .section-step {
