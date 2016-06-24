@@ -965,6 +965,7 @@ ul.info-list li strong {
 .section-step {
     background-color:#333;
     color:#e5e5e5;
+    margin: 0 -50px;
 }
 
 .step-even {
