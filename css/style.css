@@ -950,6 +950,9 @@ ul.info-list li strong {
     
 }
 
+.center {
+    text-align: center;
+}
 /* -------------------------
         6. RESUME BLOCK
 ------------------------- */
