@@ -1044,6 +1044,11 @@ ul.info-list li strong {
 #persona {
     background-color: #ccc;
 }
+
+#mock-up {
+    padding: 30px 50px;
+    background: #fff;
+}
 /* -------------------------
         6. RESUME BLOCK
 ------------------------- */
