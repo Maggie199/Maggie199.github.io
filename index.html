@@ -609,12 +609,10 @@
     (function($)
     {
     $(function () {
-    	var chart;
    		$(document).ready(function () {
         	// Build the chart
-        	chart = new Highcharts.Chart({
+        	$('#container1').highcharts({
             	chart: {
-            		renderTo: 'container1',
                		plotBackgroundColor: null,
                		plotBorderWidth: null,
                		plotShadow: false,
