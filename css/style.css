@@ -933,6 +933,11 @@ ul.info-list li strong {
 .bio-rad .project-media .section-title h3{
     color: #fff;
 }
+
+.cornell-dining .poster {
+    background-image: url("../images/portfolio/cornell-dining/cornell.jpeg");
+}
+}
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
