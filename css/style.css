@@ -918,16 +918,16 @@ ul.info-list li strong {
     background:rgba(26,26,26,0.5); /* Adds an overlay to the image */
 }
 
+.project-media .section-title {
+    padding-bottom: 50px;
+}
+
 .bio-rad .poster {
     background-image: url("../images/portfolio/bio-rad/header1.jpeg");
 }
 
 .bio-rad .project-media {
     background-color: #333;
-}
-
-.bio-rad .project-media .section-title {
-    padding-bottom: 50px;
 }
 
 .bio-rad .project-media .section-title h3{
