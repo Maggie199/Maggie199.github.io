@@ -918,26 +918,26 @@ ul.info-list li strong {
     background:rgba(26,26,26,0.5); /* Adds an overlay to the image */
 }
 
+.project-media {
+    background-color: #333;
+}
+
 .project-media .section-title {
     padding-bottom: 50px;
+}
+
+.project-media .section-title h3{
+    color: #fff;
 }
 
 .bio-rad .poster {
     background-image: url("../images/portfolio/bio-rad/header1.jpeg");
 }
 
-.bio-rad .project-media {
-    background-color: #333;
-}
-
-.bio-rad .project-media .section-title h3{
-    color: #fff;
-}
-
 .cornell-dining .poster {
     background-image: url("../images/portfolio/cornell-dining/cornell.jpg");
 }
-}
+
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
