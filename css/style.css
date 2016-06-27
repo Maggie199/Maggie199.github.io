@@ -901,9 +901,9 @@ ul.info-list li strong {
 .poster {
     position:relative;
     background-size:cover;
-    background-position:inherit;
+    background-position:0 -20px;
     overflow:hidden;
-    min-height: 65vh;
+    min-height: 60vh;
     margin: -35px -50px -50px;
 }
 
