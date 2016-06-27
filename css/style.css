@@ -938,6 +938,9 @@ ul.info-list li strong {
     background-image: url("../images/portfolio/cornell-dining/cornell.jpg");
 }
 
+.epiclogue .poster {
+    background-image: url("../images/portfolio/epiclogue/crowdsourcing.jpeg");
+}
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
