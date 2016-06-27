@@ -864,7 +864,7 @@ ul.info-list li strong {
 }
 
 .project-title h2 {
-    margin: 300px 0 0 20px;
+    margin: 350px 0 0 20px;
     color: #fff;
     font-size: 35px;
     line-height: 38px;
@@ -903,7 +903,7 @@ ul.info-list li strong {
     background-size:cover;
     background-position:inherit;
     overflow:hidden;
-    min-height: 55vh;
+    min-height: 65vh;
     margin: -35px -50px -50px;
 }
 
