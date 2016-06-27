@@ -926,8 +926,7 @@ ul.info-list li strong {
     padding: 50px 0;
 }
 
-.project-media .section-title h3,
-.project-media .section-title h4{
+.project-media .section-title h3{
     color: #fff;
 }
 
@@ -941,6 +940,10 @@ ul.info-list li strong {
 
 .epiclogue .poster {
     background-image: url("../images/portfolio/epiclogue/crowdsourcing.jpg");
+}
+
+.yelp-ux .poster {
+    background-image: url("../images/portfolio/yelp-ux/bg.jpg");
 }
 /* ================ Services Section ================ */
 #section-services {
