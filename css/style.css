@@ -901,7 +901,7 @@ ul.info-list li strong {
 .poster {
     position:relative;
     background-size:cover;
-    background-position:center;
+    background-position:inherit;
     overflow:hidden;
     min-height: 55vh;
     margin: -35px -50px -50px;
@@ -943,7 +943,7 @@ ul.info-list li strong {
 }
 
 .yelp-ux .poster {
-    background-image: url("../images/portfolio/yelp-ux/header1.gif");
+    background-image: url("../images/portfolio/yelp-ux/header1.jpg");
 }
 /* ================ Services Section ================ */
 #section-services {
