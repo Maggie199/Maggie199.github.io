@@ -903,7 +903,7 @@ ul.info-list li strong {
     background-size:cover;
     background-position:center;
     overflow:hidden;
-    min-height: 55vh;
+    min-height: 65vh;
     margin: -35px -50px -50px;
 }
 
@@ -1570,6 +1570,7 @@ ul.info-list li strong {
 #post-modal,
 #project-modal {
 	z-index: 99999;
+    padding-left: 0 !important;
 }
 
 .content {
