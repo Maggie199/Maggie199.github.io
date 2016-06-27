@@ -926,7 +926,8 @@ ul.info-list li strong {
     padding: 50px 0;
 }
 
-.project-media .section-title h3{
+.project-media .section-title h3,
+.project-media .section-title h4{
     color: #fff;
 }
 
