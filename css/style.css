@@ -422,7 +422,11 @@ h2.portfolio.menu-item:hover:after {
     color: #F34452;
 }
 
-
+.footer {
+    bottom: 5%;
+    position: absolute;
+    color: #fff;
+}
 /* -------------------------
         4. ABOUT BLOCK
 ------------------------- */
