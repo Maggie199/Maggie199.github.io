@@ -473,6 +473,82 @@
 							<img src="images/profile.JPG" alt="" />
 						</div>
 					</div>
+					<div class="row" id="chart">
+			  	<h3><span>Skills in Projects</span></h3>
+			  	<p><span>Hover each skill/project to discover more!<span class="sk"></p>
+					 <script>
+						var sales_data=[
+									['HTML5','UX Intern at Bio-Rad',1],
+									['CSS','UX Intern at Bio-Rad',1],
+									['JavaScript','UX Intern at Bio-Rad',1],
+									['Bootstrap','UX Intern at Bio-Rad',1],
+									['Axure','UX Intern at Bio-Rad',5],
+									['Balsamiq','UX Intern at Bio-Rad',3],
+									['Low/Hi-Fi Prototyping','UX Intern at Bio-Rad',8],
+									['Persona Design','UX Intern at Bio-Rad',5],
+									['Flow Model','UX Intern at Bio-Rad',3],
+									['Info Architecture Design','UX Intern at Bio-Rad',3],
+									['Responsive Design','UX Intern at Bio-Rad',3],
+									['Iterative Design','UX Intern at Bio-Rad',8],
+									['Usability Testing','UX Intern at Bio-Rad',4],
+									['Contextual Inquiry','UX Intern at Bio-Rad',5],
+									['User Survey','UX Intern at Bio-Rad',2],
+									['User Interview','UX Intern at Bio-Rad',3],
+									['HTML5','Actually Web App',5],
+									['CSS','Actually Web App',5],
+									['JavaScript','Actually Web App',8],
+									['JSON','Actually Web App',3],
+									['Graphic Design','Actually Web App',3],
+									['Iterative Design','Actually Web App',8],
+									['Responsive Design','Actually Web App',8],
+									['Bootstrap','Actually Web App',10],
+									['Django','Actually Web App',7],
+									['Highcharts,js','Actually Web App',8],
+									['Usability Testing','Actually Web App',5],
+									['HTML5','Ascend Gallery Web Dev',8],
+									['CSS','Ascend Gallery Web Dev',8],
+									['PHP','Ascend Gallery Web Dev',8],
+									['JavaScript','Ascend Gallery Web Dev',5],
+									['Usability Testing','Ascend Gallery Web Dev',5],
+									['Info Architecture Design','Ascend Gallery Web Dev',5],
+									['Responsive Design','Ascend Gallery Web Dev',5],
+									['Persona Design','Ascend Gallery Web Dev',5],
+									['User Interview','Rhythm Android App Dev',5],
+									['Contextual Inquiry','Rhythm Android App Dev',8],
+									['User Survey','Rhythm Android App Dev',3],
+									['Graphic Design','Rhythm Android App Dev',5],
+									['Iterative Design','Rhythm Android App Dev',4],
+									['HTML5','Advid Web Platform',3],
+									['CSS','Advid Web Platform',3],
+									['JavaScript','Advid Web Platform',5],
+									['Bootstrap','Advid Web Platform',8],
+									['JSON','Advid Web Platform',5],
+									['Graphic Design','Advid Web Platform',3],
+									['User Interview','Cornell Dining iOS UI Design',6],
+									['User Survey','Cornell Dining iOS UI Design',4],
+									['Contextual Inquiry','Cornell Dining iOS UI Design',10],
+									['Low/Hi-Fi Prototyping','Cornell Dining iOS UI Design',10],
+									['Iterative Design','Cornell Dining iOS UI Design',10],
+									['Persona Design','Cornell Dining iOS UI Design',7],
+									['Flow Model','Cornell Dining iOS UI Design',8],
+									['Info Architecture Design','Cornell Dining iOS UI Design',8],
+									['Balsamiq','Cornell Dining iOS UI Design',4]
+						];
+
+						var width = '100%', height = 710;
+
+						var svg = d3.select("#chart")
+							.append("svg").attr('width',width).attr('height',height).attr('margin-left', 'auto').attr('margin-right', 'auto')
+							.append("g").attr("transform","translate(420,0)");
+
+						var data = [
+							{data:bP.partData(sales_data,2), id:'Skills', header:["Skill","Project", "Skills in Projects"]}
+						];
+
+						bP.draw(data, svg);
+
+						</script>
+			  </div>
 				</div>	
 			</section>
 		</div>	
