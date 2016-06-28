@@ -474,10 +474,10 @@
 						</div>
 					</div>
 					<div class="row" id="chart">
-			  	<h3><span>Skills in Projects</span></h3>
-			  	<p><span>Hover each skill/project to discover more!<span class="sk"></p>
-					 <script>
-						var sales_data=[
+			  			<h3><span>Skills</span></h3>
+			  			<p><span>Hover each skill/project to discover more!<span class="sk"></p>
+					 	<script>
+							var sales_data=[
 									['HTML5','UX Intern at Bio-Rad',1],
 									['CSS','UX Intern at Bio-Rad',1],
 									['JavaScript','UX Intern at Bio-Rad',1],
@@ -533,22 +533,22 @@
 									['Flow Model','Cornell Dining iOS UI Design',8],
 									['Info Architecture Design','Cornell Dining iOS UI Design',8],
 									['Balsamiq','Cornell Dining iOS UI Design',4]
-						];
+							];
 
-						var width = '100%', height = 710;
+							var width = '100%', height = 710;
 
-						var svg = d3.select("#chart")
-							.append("svg").attr('width',width).attr('height',height).attr('margin-left', 'auto').attr('margin-right', 'auto')
-							.append("g").attr("transform","translate(420,0)");
+							var svg = d3.select("#chart")
+								.append("svg").attr('width',width).attr('height',height).attr('margin-left', 'auto').attr('margin-right', 'auto')
+								.append("g").attr("transform","translate(420,0)");
 
-						var data = [
-							{data:bP.partData(sales_data,2), id:'Skills', header:["Skill","Project", "Skills in Projects"]}
-						];
+							var data = [
+								{data:bP.partData(sales_data,2), id:'Skills', header:["Skill","Project", "Skills in Projects"]}
+							];
 
-						bP.draw(data, svg);
+							bP.draw(data, svg);
 
 						</script>
-			  </div>
+			  		</div>
 				</div>	
 			</section>
 		</div>	
@@ -628,6 +628,8 @@
 <script type="text/javascript" src="js/jquery.appear.js"></script>
 <script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/biPartite.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
       var pxLat = 37.790823,
