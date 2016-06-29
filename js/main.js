@@ -3,6 +3,7 @@ $(window).load(function() {
       	$(".preloader-left").addClass("slide-left");
       	$(".preloader-right").addClass("slide-right");
       	$("#portfolio-case").addClass("full-portfolio");
+      	$('#projects').isotope('reLayout');
     });
 });
 
@@ -16,7 +17,7 @@ $(window).load(function() {
       },
       itemSelector: '.project'
     });
-    $container.isotope('reLayout');
+
     //Portfolio filters
     $('#filters').on( 'click', 'li', function() {
       $('#filters li').removeClass('active');
