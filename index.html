@@ -65,7 +65,7 @@
 			<div class="name-block-container">	
 				<h1 class="back"><span>Hi, I'm</span>Maggie Nan</h1>
                 <h2 class="back">Designer + Developer</h2>				
-				<a class="btn btn-download">Download Resume</a>
+				<a class="btn btn-download" href="maggienan.pdf">Download Resume</a>
                 <ul class="social">
 					<li><a href="https://www.linkedin.com/in/maggie-nan" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 					<li><a href="https://www.pinterest.com/maggienan/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
@@ -154,7 +154,7 @@
 										<li>C</li>
 										<li>C++</li>
 										<li>PHP</li>
-										<li>SQL</li>
+										<li>MYSQL</li>
 										<li>A/B Testing</li>
 									</ul>
 								</div> 	
@@ -185,7 +185,7 @@
 									<div class="exp">
 										<div class="hgroup">
 											<h4>Frontend Developer – InterSystems <small>Cambridge, MA</small></h4>
-											<h5>March 2015 - Nov 2015</h5>
+											<h5>March 2015 - Oct 2015</h5>
 										</div>
 										<ul>
 											<li><span class="icon fa fa-arrow-circle-right color-scheme"></span> Worked on the Developer Experience Team, responsible for the development of Zen Mojo - a set of classes to rapidly build responsive web applications with easy access to InterSystems Caché database</li>
@@ -478,7 +478,7 @@
 				    <h3 class="block-title">Profile</h3>
 					<div class="row">
 						<div class="col-md-7">
-							<p>My name is Zhe Nan, and you're welcome to call me <strong>Maggie</strong>. I graduated from <strong>Cornell University</strong> as a master student in <strong>Information Science</strong>, with concentration of <strong>Human-Computer Interaction</strong>.</p>
+							<p>My name is <strong>Zhe Nan</strong>, and you're welcome to call me <strong>Maggie</strong>. I graduated from <strong>Cornell University</strong> as a master student in <strong>Information Science</strong>, with concentration of <strong>Human-Computer Interaction</strong>.</p>
 							<br>
 							<p>During the past 15 months, I have been worked as <strong>frontend/full-stack developer</strong>. This experience has given me <strong>strong logical thinking and analytical skills</strong>, but I've been always kept the faith that I will be a <strong>User Experience designer</strong> someday.</p>
 							<br>
@@ -528,7 +528,7 @@
 									['JavaScript','full-stack Dev @ Yelp',8],
 									['HTML5&CSS','full-stack Dev @ Yelp',6],
 									['JSON','full-stack Dev @ Yelp',6],
-									['SQL','full-stack Dev @ Yelp',10],
+									['MYSQL','full-stack Dev @ Yelp',10],
 									['Usability Testing','UX group @ Yelp',5],
 									['Persona Design','UX group @ Yelp',5],
 									['Contextual Inquiry','Cornell Dining iOS UI Design',7],
@@ -635,7 +635,7 @@
 <script type="text/javascript" src="js/jquery.appear.js"></script>
 <script type="text/javascript" src="js/contact_me.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTHhkHXKNNF832FJx51VUXKKt5hpPE0Sw"></script>
     <script>
       var pxLat = 37.790823,
           pxLng = -122.4007092;
@@ -682,15 +682,6 @@
               title: 'SF SOMA'
           });
       }
-      
-      function newLocation(level) {
-      
-         if(map.getZoom() > 15) { map.setZoom(15) } else { map.setZoom(level) }
-      }
-      
-      document.querySelector('#map-arrow').addEventListener('click', function() {
-        newLocation(Math.round(Math.random()*10) + 13);
-      }, false);
     </script>
  </body>
 </html>
