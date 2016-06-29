@@ -16,7 +16,7 @@ $(window).load(function() {
       },
       itemSelector: '.project'
     });
-
+    $container.isotope('reLayout');
     //Portfolio filters
     $('#filters').on( 'click', 'li', function() {
       $('#filters li').removeClass('active');
