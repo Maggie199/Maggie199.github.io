@@ -2073,4 +2073,8 @@ ul.info-list li strong {
 	.project {
 		width: 100%;
     }
+
+    .project-title h2 {
+        margin: 300px 0 0 20px;
+    }
 }
