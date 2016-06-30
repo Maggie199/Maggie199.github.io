@@ -981,6 +981,12 @@ ul.info-list li strong {
     text-align: center;
 }
 
+.challenges .item {
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+
 /* ================ Step-1,step-2,step-3 Sections ================ */
 .container.step {
     padding: 80px 0;
