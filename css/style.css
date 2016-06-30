@@ -982,12 +982,18 @@ ul.info-list li strong {
 }
 
 .challenges {
-    padding: 0 50px;
+    padding: 65px;
 }
+
+.challenges .project-media .section-title {
+    padding-bottom: 20px;
+}
+
 .challenges .item {
     text-transform: uppercase;
     color: #fff;
-    font-weight: bold;
+    padding-left: 30px;
+    line-height: 40px;
     font-size: 15px;
 }
 
