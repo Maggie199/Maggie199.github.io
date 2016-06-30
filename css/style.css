@@ -981,10 +981,14 @@ ul.info-list li strong {
     text-align: center;
 }
 
+.challenges {
+    padding: 0 50px;
+}
 .challenges .item {
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
+    font-size: 15px;
 }
 
 /* ================ Step-1,step-2,step-3 Sections ================ */
