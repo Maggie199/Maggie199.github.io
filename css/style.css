@@ -950,6 +950,10 @@ ul.info-list li strong {
     background-image: url("../images/portfolio/yelp-ux/header1.jpg");
 }
 
+.yelp-ux .poster {
+    background-image: url("../images/portfolio/sara/poster.png");
+}
+
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
