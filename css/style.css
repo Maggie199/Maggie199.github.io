@@ -982,11 +982,11 @@ ul.info-list li strong {
 }
 
 .challenges {
-    padding: 65px;
+    padding: 50px 65px;
 }
 
 .challenges .section-title {
-    padding-bottom: 20px;
+    padding: 0 0 20px 0;
 }
 
 .challenges .item {
