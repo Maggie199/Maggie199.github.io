@@ -954,6 +954,9 @@ ul.info-list li strong {
     background-image: url("../images/portfolio/sara/Car Accident.jpg");
 }
 
+.sara .poster {
+    background-image: url("../images/portfolio/actually/background.png");
+}
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
