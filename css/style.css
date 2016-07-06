@@ -1608,7 +1608,7 @@ ul.info-list li strong {
 
 .content {
     position: relative;
-    padding: 100px 50px 50px;
+    padding: 100px 50px 0;
     height: auto;
     overflow: hidden;
 }
