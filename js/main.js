@@ -31,27 +31,7 @@ $(window).load(function() {
 	//Portfolio Modal
 	$('.open-project').on('click', function(){     
 		var projectUrl = $(this).attr("href");
-		var projectList = ["bio-rad.html", "epiclogue.html", "yelp-ux.html", "cornell-dining.html", "actually.html", "sara.html"]
-		var project = '<div class="modal fade" id="project-modal"><div class="inline-menu-container">'
-		
-		project = project + '<a id="modal-close" class="close" data-dismiss="modal"><span class="icon fa fa-th color-scheme"></span></a>'
-
-		if(projectUrl !="sara.html") {
-			nextProj = projectList[projectList.indexOf(projectUrl)+1];
-			project += '<a class="next" href="'+nextProj+'">></a>';
-		} else {
-			project = project + '<span class="next disabled">></span>';
-		}
-
-		if(projectUrl != "bio-rad.html"){
-			prevProj = projectList[projectList.indexOf(projectUrl)-1];
-			project += '<a class="prev open-project" href="'+nextProj+'"><</span></a>';
-		} else {
-			project += '<span class="prev disabled"><</span>';
-		}
-
-		project += '</div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
-
+		project = renderModal(projectUrl)
 
 		$(project).modal({
 		  remote: projectUrl + ' #project'
@@ -60,11 +40,18 @@ $(window).load(function() {
 		return false;
 	  
 	});
+
+	
 	$(".next").on('click', function () {
-        $('#project-modal').removeData('#project');
-        $('#project-modal').modal({remote: $(this).attr("href") + ' #project'});
-        $('#project-modal').modal('show');
-        return false;
+        $('#project-modal').modal('hide');
+        var projectUrl = $(this).attr("href");
+		project = renderModal(projectUrl)
+
+		$(project).modal({
+		  remote: projectUrl + ' #project'
+		})
+		
+		return false;
 	});
 	
 	//On Click Open Menu Items
@@ -158,4 +145,25 @@ $(document).ready(function() {
 	});
 });
 	
+var renderModal = function(projectUrl) {
+	var projectList = ["bio-rad.html", "epiclogue.html", "yelp-ux.html", "cornell-dining.html", "actually.html", "sara.html"]
+	var project = '<div class="modal fade" id="project-modal"><div class="inline-menu-container">'
+	project += '<a id="modal-close" class="close" c><span class="icon fa fa-th color-scheme"></span></a>'
+	if(projectUrl !="sara.html") {
+		nextProj = projectList[projectList.indexOf(projectUrl)+1];
+		project += '<a class="next" href="'+nextProj+'">></a>';
+	} else {
+		project = project + '<span class="next disabled">></span>';
+	}
+
+	if(projectUrl != "bio-rad.html"){
+		prevProj = projectList[projectList.indexOf(projectUrl)-1];
+		project += '<a data-dismiss="modal" class="open-project" href="'+nextProj+'"><</span></a>';
+	} else {
+		project += '<span class="prev disabled"><</span>';
+	}
+
+	project += '</div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
+	return project;
+}
   
