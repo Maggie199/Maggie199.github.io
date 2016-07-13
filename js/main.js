@@ -38,7 +38,7 @@ $(window).load(function() {
 
 		if(projectUrl !="sara.html") {
 			nextProj = projectList[projectList.indexOf(projectUrl)+1];
-			project += '<a class="next open-project" href="'+nextProj+'">></a>';
+			project += '<a class="next" href="'+nextProj+'">></a>';
 		} else {
 			project = project + '<span class="next disabled">></span>';
 		}
@@ -60,19 +60,11 @@ $(window).load(function() {
 		return false;
 	  
 	});
-	
-	//Resume post Modal
-	$('.open-post').on('click', function(){     
-		var postUrl = $(this).attr("href");
-
-		var post = '<div class="modal" id="post-modal"><div class="inline-menu-container"><a id="modal-close" class="close" data-dismiss="modal"><span class="icon fa fa-arrow-left color-scheme"></span></a></div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
-
-		$(post).modal({
-		  remote: postUrl + ' #post'
-		})
-		
-		return false;
-	  
+	$(".next").on('click', function () {
+        $('#project-modal').removeData('#project');
+        $('#project-modal').modal({remote: $(this).attr("href") + ' #project'});
+        $('#project-modal').modal('show');
+        return false;
 	});
 	
 	//On Click Open Menu Items
