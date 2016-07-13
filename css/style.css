@@ -961,6 +961,20 @@ ul.info-list li strong {
 .actually .poster {
     background-image: url("../images/portfolio/actually/background.png");
 }
+
+.next {
+    float:right;
+}
+
+.prev {
+    float: left;
+}
+.prev, .next{
+    color: #000;
+    opacity: 0.7;
+    font-size: 40px;
+    padding: 0 10px;
+}
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
@@ -1544,6 +1558,7 @@ ul.info-list li strong {
     left: 30%;
     z-index: 99999;
     line-height: 65px;
+    text-align: center;
 } 
 
 #post-modal .inline-menu-container,
@@ -1552,8 +1567,10 @@ ul.info-list li strong {
 }
 
 #modal-close.close {
-	opacity: 0.9;
+	opacity: 0.7;
 	padding: 5px 15px;
+    float: none;
+    line-height: inherit;
 }
 
 #close, #modal-close {

@@ -32,7 +32,7 @@ $(window).load(function() {
 	$('.open-project').on('click', function(){     
 		var projectUrl = $(this).attr("href");
 
-		var project = '<div class="modal fade" id="project-modal"><div class="inline-menu-container"><a id="modal-close" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></a></div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
+		var project = '<div class="modal fade" id="project-modal"><div class="inline-menu-container"><a id="modal-close" class="close" data-dismiss="modal"><span class="icon fa fa-th-large color-scheme"></span></a><a class="prev"><span class="icon fa fa-long-arrow-left color-scheme"></span></a><a class="next"><span class="icon fa fa-long-arrow-right color-scheme"></span></a></div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
 
 		$(project).modal({
 		  remote: projectUrl + ' #project'
@@ -46,7 +46,7 @@ $(window).load(function() {
 	$('.open-post').on('click', function(){     
 		var postUrl = $(this).attr("href");
 
-		var post = '<div class="modal" id="post-modal"><div class="inline-menu-container"><a id="modal-close" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span></a></div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
+		var post = '<div class="modal" id="post-modal"><div class="inline-menu-container"><a id="modal-close" class="close" data-dismiss="modal"><span class="icon fa fa-arrow-left color-scheme"></span></a></div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
 
 		$(post).modal({
 		  remote: postUrl + ' #post'
