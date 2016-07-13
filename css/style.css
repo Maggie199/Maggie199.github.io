@@ -324,11 +324,17 @@ h2.menu-item:after {
     transition: all 0.5s ease;
 }
 
-h2.menu-item:hover:after,
-h2.portfolio.menu-item:hover:after {
+h2.menu-item:hover:after{
     background: #F34452;
 }
 
+.name-block:hover,
+.about-block:hover,
+.portfolio-block:hover,
+.resume-block:hover,
+.contact-block:hover {
+    background-color: rgba(255,255,255,0.2);
+}
 /* -------------------------
         3. NAME BLOCK
 ------------------------- */
@@ -919,7 +925,7 @@ ul.info-list li strong {
     bottom:0;
     right:0;
     position: absolute;
-    background:rgba(26,26,26,0.5); /* Adds an overlay to the image */
+    background:rgba(26,26,26,0.4); /* Adds an overlay to the image */
 }
 
 .project-media {
@@ -1529,6 +1535,7 @@ ul.info-list li strong {
     left: 0; 
     bottom: 0; 
 }
+
 /* -------------------------
         8. CONTENT BLOCKS
 ------------------------- */ 
@@ -1688,15 +1695,6 @@ ul.info-list li strong {
 		width: 880px;
 		left: 700px;
 	} 
-
-    h2.portfolio.menu-item:before, 
-    h2.portfolio.menu-item{
-        color: #333;
-    }
-
-    h2.portfolio.menu-item:after {
-        background: #333;
-    }
 }
 
 @media (min-width:1280px) and (max-width:1919px) {
@@ -1739,15 +1737,6 @@ ul.info-list li strong {
         transform: rotate(-34deg);
         left: 1067px;
         top: 48px;
-    }
-
-    h2.portfolio.menu-item:before, 
-    h2.portfolio.menu-item{
-        color: #333;
-    }
-
-    h2.portfolio.menu-item:after {
-        background: #333;
     }
 }
 
@@ -1799,15 +1788,6 @@ ul.info-list li strong {
         top: -70px;
 		width:350px;
 		height: 300px;
-    }
-
-    h2.portfolio.menu-item:before, 
-    h2.portfolio.menu-item{
-        color: #333;
-    }
-
-    h2.portfolio.menu-item:after {
-        background: #333;
     }
 }
 
