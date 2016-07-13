@@ -31,8 +31,27 @@ $(window).load(function() {
 	//Portfolio Modal
 	$('.open-project').on('click', function(){     
 		var projectUrl = $(this).attr("href");
+		var projectList = ["bio-rad.html", "epiclogue.html", "yelp-ux.html", "cornell-dining.html", "actually.html", "sara.html"]
+		var project = '<div class="modal fade" id="project-modal"><div class="inline-menu-container">'
+		
+		project = project + '<a id="modal-close" class="close" data-dismiss="modal"><span class="icon fa fa-th color-scheme"></span></a>'
 
-		var project = '<div class="modal fade" id="project-modal"><div class="inline-menu-container"><a id="modal-close" class="close" data-dismiss="modal"><span class="icon fa fa-th-large color-scheme"></span></a><a class="prev"><span class="icon fa fa-long-arrow-left color-scheme"></span></a><a class="next"><span class="icon fa fa-long-arrow-right color-scheme"></span></a></div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
+		if(projectUrl !="sara.html") {
+			nextProj = projectList[projectList.indexOf(projectUrl)+1];
+			project += '<a class="next open-project" href="'+nextProj+'">></a>';
+		} else {
+			project = project + '<span class="next disabled">></span>';
+		}
+
+		if(projectUrl != "bio-rad.html"){
+			prevProj = projectList[projectList.indexOf(projectUrl)-1];
+			project += '<a class="prev open-project" href="'+nextProj+'"><</span></a>';
+		} else {
+			project += '<span class="prev disabled"><</span>';
+		}
+
+		project += '</div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
+
 
 		$(project).modal({
 		  remote: projectUrl + ' #project'
