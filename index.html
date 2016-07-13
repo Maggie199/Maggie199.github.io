@@ -300,7 +300,7 @@
 							</ul>
 							<div id="projects">
 								  <div class="project web ux">
-									<a class="open-project" href="bio-rad.html">
+									<a class="open-project" data-toggle="modal" href="bio-rad.html" data-target="#project-modal">
 										<div class="project-overlay">
 											<div class="vcenter">
 												<div class="centrize">
@@ -564,7 +564,18 @@
 	</div>
   </div>			
 </section>
-<div class="next"></div>
+<div class="modal fade" id="project-modal">
+    <div class="inline-menu-container">
+    	<a id="modal-close" class="close" data-dismiss="modal">
+    		<span class="icon fa fa-th color-scheme"></span>
+    	</a>
+    	<a class="next" data-dismiss="modal" data-toggle="modal" data-target="#project-modal">></a>
+    	<a class="prev" data-dismiss="modal" data-toggle="modal" data-target="#project-modal"><</span></a>
+    </div>
+    <div class="modal-dialog">
+    	<div class="modal-content"></div>
+    </div>
+    </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
