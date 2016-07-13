@@ -46,9 +46,6 @@ $(window).load(function() {
 		} else {
 			$('.prev').addClass('disabled');
 		}
-
-		return false;
-	  
 	});
 	
 	//On Click Open Menu Items
