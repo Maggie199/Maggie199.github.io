@@ -290,11 +290,18 @@ h2.menu-item {
     font-size: 28px;
 }
 
+h2.menu-item:hover {
+    color: #000;
+}
 h2.menu-item:before {
     position: absolute;
     top: -40px;
     left: -20px;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+h2.menu-item:hover:before {
+    color: #000;
 }
 
 h2.about.menu-item:before {
