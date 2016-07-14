@@ -28,26 +28,6 @@ $(window).load(function() {
 	
 })();
 	
-	//Portfolio Modal
-	$('.open-project').on('click', function(){     
-		var projectUrl = $(this).attr("href");
-		var projectList = ["bio-rad.html", "epiclogue.html", "yelp-ux.html", "cornell-dining.html", "actually.html", "sara.html"]
-
-		if(projectUrl !="sara.html") {
-			nextProj = projectList[projectList.indexOf(projectUrl)+1];
-			$('.next').attr('href', nextProj);
-		} else {
-			$('.next').addClass('disabled');
-		}
-
-		if(projectUrl != "bio-rad.html"){
-			prevProj = projectList[projectList.indexOf(projectUrl)-1];
-			$('.prev').attr('href', prevProj);
-		} else {
-			$('.prev').addClass('disabled');
-		}
-	});
-	
 	//On Click Open Menu Items
 	$('.menu-item').on( 'click', function() {
       $('.name-block').addClass('reverse');
@@ -138,26 +118,4 @@ $(document).ready(function() {
 			}
 	});
 });
-	
-var renderModal = function(projectUrl) {
-	
-	var project = '<div class="modal fade" id="project-modal"><div class="inline-menu-container">'
-	project += '<a id="modal-close" class="close" c><span class="icon fa fa-th color-scheme"></span></a>'
-	if(projectUrl !="sara.html") {
-		nextProj = projectList[projectList.indexOf(projectUrl)+1];
-		project += '<a class="next" href="'+nextProj+'">></a>';
-	} else {
-		project = project + '<span class="next disabled">></span>';
-	}
-
-	if(projectUrl != "bio-rad.html"){
-		prevProj = projectList[projectList.indexOf(projectUrl)-1];
-		project += '<a class="prev" data-toggle="modal" data-target="'+nextProj+' #project" data-dismiss="modal"><</span></a>';
-	} else {
-		project += '<span class="prev disabled"><</span>';
-	}
-
-	project += '</div><div class="modal-dialog"><div class="modal-content"></div></div></div>';
-	return project;
-}
   

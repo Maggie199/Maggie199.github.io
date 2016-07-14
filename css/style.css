@@ -18,10 +18,10 @@
         0. standard
 ------------------------- */
 body {
-    font: 400 14px 'Raleway', sans-serif;
+    font: 400 16px 'Raleway', sans-serif;
     -webkit-font-smoothing: antialiased;
     line-height: 30px;
-    color: #727272;
+    color: #222;
     overflow-x: hidden;
 }
 
@@ -62,7 +62,7 @@ h3 {
     line-height: 26px;
     margin-top: 0;
     margin-bottom: 0;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 h4 {
@@ -860,13 +860,12 @@ ul.info-list li strong {
     margin: 0;
 }
 
-#post-modal .modal-dialog,
-#project-modal .modal-dialog {
+.project-modal .modal-dialog {
 	width: 100%;
 	margin: 0;
 }
-#post-modal .modal-content,
-#project-modal .modal-content {
+
+.project-modal .modal-content {
     border: none;
     border-radius: 0;
     box-shadow: none;
@@ -940,28 +939,37 @@ ul.info-list li strong {
 
 .bio-rad .poster {
     background-image: url("../images/portfolio/bio-rad/header1.jpeg");
+    margin-top: 0;
 }
 
 .cornell-dining .poster {
     background-image: url("../images/portfolio/cornell-dining/cornell.jpg");
+    margin-top: 0;
 }
 
 .epiclogue .poster {
     background-image: url("../images/portfolio/epiclogue/crowdsourcing.jpg");
+    margin-top: 0;
 }
 
 .yelp-ux .poster {
     background-image: url("../images/portfolio/yelp-ux/header1.jpg");
+    margin-top: 0;
 }
 
 .sara .poster {
     background-image: url("../images/portfolio/sara/Car Accident.jpg");
+    margin-top: 0;
 }
 
 .actually .poster {
     background-image: url("../images/portfolio/actually/background.png");
+    margin-top: 0;
 }
 
+.bio-rad, .cornell-dining, .epiclogue, .yelp-ux, .sara, .actually{
+    padding-top: 0 !important;
+}
 .prev, .next{
     color: #333;
     font-size: 30px;
@@ -971,6 +979,10 @@ ul.info-list li strong {
 }
 
 .disabled{
+    color: #999;
+}
+
+.disabled:hover{
     color: #999;
 }
 /* ================ Services Section ================ */
@@ -1039,6 +1051,9 @@ ul.info-list li strong {
     float:right;
 }
 
+.step-img {
+    text-align: center;
+}
 .step-even .step-img {
     float:right;
 }
@@ -1109,6 +1124,11 @@ ul.info-list li strong {
 .iteration {
     text-align: center;
     background-color: #999;
+}
+
+.prototype {
+    text-align: center;
+    background-color: #fff;
 }
 /* -------------------------
         6. RESUME BLOCK
@@ -1559,11 +1579,15 @@ ul.info-list li strong {
     text-align: right;
 } 
 
-#post-modal .inline-menu-container,
-#project-modal .inline-menu-container {
+.project-modal .inline-menu-container {
 	height: 65px;
 }
 
+.projDetail {
+    width: 151px;
+    left: auto;
+    right: 0;
+}
 #modal-close.close {
 	opacity: 0.7;
 	padding: 5px 15px;
@@ -1607,8 +1631,8 @@ ul.info-list li strong {
 .inline-menu li:hover {
     text-decoration: overline;
 }
-#project-modal,
-#post-modal,
+
+.post-modal,
 .content-blocks {
     position: absolute;
     width: 70%;
@@ -1621,17 +1645,16 @@ ul.info-list li strong {
     transition: all 0.5s;
 }
 
-#post-modal,
-#project-modal {
+.project-modal {
 	z-index: 99999;
     padding-left: 0 !important;
 }
 
 .content {
     position: relative;
-    padding: 100px 50px 0;
     height: auto;
     overflow: hidden;
+    padding: 100px 50px 0;
 }
 
 .block-content {
@@ -1703,8 +1726,8 @@ ul.info-list li strong {
 		width: 400px;
 		left: 300px;
 	}
-	#project-modal,
-	#post-modal,
+
+	.project-modal,
 	.content-blocks {
 		width: 880px;
 		left: 700px;
@@ -1974,8 +1997,7 @@ ul.info-list li strong {
         margin: 50px 0;
     }
 	
-	#post-modal,
-	#project-modal,
+	.project-modal,
     .content-blocks {
         width: 100%;
         height: 100%;
@@ -2045,8 +2067,7 @@ ul.info-list li strong {
         margin: 50px 0;
     }
 	
-	#post-modal,
-	#project-modal,
+	.project-modal,
     .content-blocks {
         width: 100%;
         height: 100%;

@@ -300,7 +300,7 @@
 							</ul>
 							<div id="projects">
 								  <div class="project web ux">
-									<a class="open-project" data-toggle="modal" href="bio-rad.html" data-target="#project-modal">
+									<a data-toggle="modal" href="bio-rad.html" data-target="#bio-rad">
 										<div class="project-overlay">
 											<div class="vcenter">
 												<div class="centrize">
@@ -312,8 +312,9 @@
 									</a>
 									<img src="images/portfolio/bio-rad/biorad6.png" alt="">
 								  </div>
+
 								  <div class="project web frontend">
-									<a class="open-project" href="yelp-ux.html">
+									<a data-toggle="modal" data-target="#yelp-ux" href="yelp-ux.html">
 										<div class="project-overlay">
 											<div class="vcenter">
 												<div class="centrize">
@@ -325,24 +326,9 @@
 									</a>
 									<img src="images/portfolio/yelp-ux/yelp_ux2.png" alt="">
 								  </div>
-								  <!--
-								  <div class="project UX mobile">
-									<a class="open-project" href="project-1.html">
-										<div class="project-overlay">
-											<div class="vcenter">
-												<div class="centrize">
-													<h4>Rhythm</h4>                
-													<p>UX / Mobile</p>
-												</div>
-											</div>
-										</div>
-									</a>
-									<img src="images/portfolio/rhythm/rhythm.gif" alt="">
-								  </div>
-								  -->
 								  
 								  <div class="project web frontend">
-									<a class="open-project" href="actually.html">
+									<a data-toggle="modal" data-target="#actually" href="actually.html">
 										<div class="project-overlay">
 											<div class="vcenter">
 												<div class="centrize">
@@ -356,7 +342,7 @@
 								  </div>
 								  
 								  <div class="project ux mobile">
-									<a class="open-project" href="cornell-dining.html">
+									<a data-toggle="modal" data-target="#cornell-dining" href="cornell-dining.html">
 										<div class="project-overlay">
 											<div class="vcenter">
 												<div class="centrize">
@@ -369,7 +355,7 @@
 									<img src="images/portfolio/cornell-dining/CornellDining5.png" alt="">
 								  </div>
 								  <div class="project ux web">
-									<a class="open-project" href="epiclogue.html">
+									<a data-toggle="modal" data-target="#epiclogue" href="epiclogue.html">
 										<div class="project-overlay">
 											<div class="vcenter">
 												<div class="centrize">
@@ -382,7 +368,7 @@
 									<img src="images/portfolio/epiclogue/epiclogue4.png" alt="">
 								  </div>
 								  <div class="project ux">
-									<a class="open-project" href="sara.html">
+									<a data-toggle="modal" data-target="#sara" href="sara.html">
 										<div class="project-overlay">
 											<div class="vcenter">
 												<div class="centrize">
@@ -564,18 +550,83 @@
 	</div>
   </div>			
 </section>
-<div class="modal fade" id="project-modal">
-    <div class="inline-menu-container">
+<div class="modal fade project-modal" id="bio-rad">
+    <div class="inline-menu-container projDetail">
     	<a id="modal-close" class="close" data-dismiss="modal">
     		<span class="icon fa fa-th color-scheme"></span>
     	</a>
-    	<a class="next open-project" data-toggle="modal" data-target="#project-modal">></a>
-    	<a class="prev open-project" data-toggle="modal" data-target="#project-modal"><</span></a>
+    	<a class="next" data-toggle="modal" href="epiclogue.html" data-target="#epiclogue">></a>
+    	<a class="prev disabled"><</span></a>
     </div>
     <div class="modal-dialog">
     	<div class="modal-content"></div>
     </div>
+</div>
+
+<div class="modal fade project-modal" id="epiclogue">
+    <div class="inline-menu-container projDetail">
+    	<a id="modal-close" class="close" data-dismiss="modal">
+    		<span class="icon fa fa-th color-scheme"></span>
+    	</a>
+    	<a class="next" data-toggle="modal" href="yelp-ux.html" data-target="#bio-rad">></a>
+    	<a class="prev" data-toggle="modal" href="bio-rad.html" data-target="#yelp-ux"><</span></a>
     </div>
+    <div class="modal-dialog">
+    	<div class="modal-content"></div>
+    </div>
+</div>
+
+<div class="modal fade project-modal" id="yelp-ux">
+    <div class="inline-menu-container projDetail">
+    	<a id="modal-close" class="close" data-dismiss="modal">
+    		<span class="icon fa fa-th color-scheme"></span>
+    	</a>
+    	<a class="next" data-toggle="modal" href="cornell-dining.html" data-target="#cornell-dining">></a>
+    	<a class="prev" data-toggle="modal" href="epiclogue.html" data-target="#epiclogue"><</span></a>
+    </div>
+    <div class="modal-dialog">
+    	<div class="modal-content"></div>
+    </div>
+</div>
+
+<div class="modal fade project-modal" id="cornell-dining">
+    <div class="inline-menu-container projDetail">
+    	<a id="modal-close" class="close" data-dismiss="modal">
+    		<span class="icon fa fa-th color-scheme"></span>
+    	</a>
+    	<a class="next" data-toggle="modal" href="actually.html" data-target="#actually">></a>
+    	<a class="prev" data-toggle="modal" href="yelp-ux.html" data-target="#yelp-ux"><</span></a>
+    </div>
+    <div class="modal-dialog">
+    	<div class="modal-content"></div>
+    </div>
+</div>
+
+<div class="modal fade project-modal" id="actually">
+    <div class="inline-menu-container projDetail">
+    	<a id="modal-close" class="close" data-dismiss="modal">
+    		<span class="icon fa fa-th color-scheme"></span>
+    	</a>
+    	<a class="next" data-toggle="modal" href="sara.html" data-target="#sara">></a>
+    	<a class="prev" data-toggle="modal" href="cornell-dining.html" data-target="#cornell-dining"><</span></a>
+    </div>
+    <div class="modal-dialog">
+    	<div class="modal-content"></div>
+    </div>
+</div>
+
+<div class="modal fade project-modal" id="sara">
+    <div class="inline-menu-container projDetail">
+    	<a id="modal-close" class="close" data-dismiss="modal">
+    		<span class="icon fa fa-th color-scheme"></span>
+    	</a>
+    	<a class="next disabled">></a>
+    	<a class="prev" data-toggle="modal" href="actually.html" data-target="#actually"><</span></a>
+    </div>
+    <div class="modal-dialog">
+    	<div class="modal-content"></div>
+    </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
