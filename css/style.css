@@ -507,7 +507,7 @@ ul.info-list li strong {
 }
 
 .progress-bar-label {
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 10px;
 }
 
@@ -1000,6 +1000,14 @@ ul.info-list li strong {
 .disabled:hover{
     color: #999;
 }
+
+.summary{
+    padding-bottom: 80px;
+}
+
+.summary h3{
+    padding-top: 10px;
+}
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
@@ -1141,6 +1149,17 @@ ul.info-list li strong {
     text-align: center;
     background-color: #999;
     padding: 50px 0;
+    color: #000;
+}
+
+.bottom {
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+}
+
+.hifi{
+    width: 100%;
 }
 /* -------------------------
         6. RESUME BLOCK
