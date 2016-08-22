@@ -1008,6 +1008,12 @@ ul.info-list li strong {
 .summary h3{
     padding-top: 10px;
 }
+
+.title {
+    color: #fff;
+    padding-top: 50px;
+    margin-bottom: -5px;
+}
 /* ================ Services Section ================ */
 #section-services {
     position:relative;

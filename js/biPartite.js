@@ -1,7 +1,7 @@
 !function(){
 	var bP={};	
 	var b=30, bb=150, height=700, buffMargin=1, minHeight=14;
-	var c1=[-220, 105], c2=[-30, 330], c3=[10, 380]; //Column positions of labels.
+	var c1=[-220, 105], c2=[-10, 350], c3=[30, 400]; //Column positions of labels.
 	var color1 = d3.scale.category20c().range();
 	var color2 = d3.scale.category10().range();
 	var colors = color1.concat(color2);
