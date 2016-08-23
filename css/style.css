@@ -923,9 +923,9 @@ ul.info-list li strong {
 .poster {
     position:relative;
     background-size:cover;
-    background-position:center;
+    background-position: 0 -50px;
     overflow:hidden;
-    min-height: 65vh;
+    min-height: 75vh;
     margin: -35px -50px -50px;
 }
 
@@ -937,7 +937,7 @@ ul.info-list li strong {
     bottom:0;
     right:0;
     position: absolute;
-    background:rgba(26,26,26,0.4); /* Adds an overlay to the image */
+    background:rgba(26,26,26,0.5); /* Adds an overlay to the image */
 }
 
 .project-media {
@@ -953,32 +953,32 @@ ul.info-list li strong {
 }
 
 .bio-rad .poster {
-    background-image: url("../images/portfolio/bio-rad/header1.jpeg");
+    background-image: url("../images/portfolio/bio-rad/result.png");
     margin-top: 0;
 }
 
 .cornell-dining .poster {
-    background-image: url("../images/portfolio/cornell-dining/cornell.jpg");
+    background-image: url("../images/portfolio/cornell-dining/hi-fi3.jpg");
     margin-top: 0;
 }
 
 .epiclogue .poster {
-    background-image: url("../images/portfolio/epiclogue/crowdsourcing.jpg");
+    background-image: url("../images/portfolio/epiclogue/mockup1.gif");
     margin-top: 0;
 }
 
 .yelp-ux .poster {
-    background-image: url("../images/portfolio/yelp-ux/header1.jpg");
+    background-image: url("../images/portfolio/yelp-ux/showcase.png");
     margin-top: 0;
 }
 
 .sara .poster {
-    background-image: url("../images/portfolio/sara/Car Accident.jpg");
+    background-image: url("../images/portfolio/sara/poster.png");
     margin-top: 0;
 }
 
 .actually .poster {
-    background-image: url("../images/portfolio/actually/background.png");
+    background-image: url("../images/portfolio/actually/final.png");
     margin-top: 0;
 }
 
@@ -1975,6 +1975,10 @@ ul.info-list li strong {
     h2.portfolio.menu-item:after {
         background: #333;
     }
+
+    .d3Chart {
+        display: none;
+    }   
 }
 
 @media (max-width:800px) and (max-height:600px) {
@@ -2044,7 +2048,7 @@ ul.info-list li strong {
 	.inline-menu-container {
 		width: 100%;
 		left: 0;
-	}	
+	}
 }
 
 @media (max-width:768px) {
@@ -2164,5 +2168,9 @@ ul.info-list li strong {
 
     .inline-menu li {
         padding: 0 7px;
+    }
+
+    .d3Chart {
+        display: none;
     }
 }
