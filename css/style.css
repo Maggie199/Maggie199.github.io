@@ -923,10 +923,10 @@ ul.info-list li strong {
 .poster {
     position:relative;
     background-size:cover;
-    background-position: 0 -50px;
+    background-repeat: no-repeat;
     overflow:hidden;
     min-height: 75vh;
-    margin: -35px -50px -50px;
+    margin: 0 -50px;
 }
 
 .layer {
@@ -937,28 +937,33 @@ ul.info-list li strong {
     bottom:0;
     right:0;
     position: absolute;
-    background:rgba(26,26,26,0.5); /* Adds an overlay to the image */
+    background: rgba(0,0,0,0.5); /* Adds an overlay to the image */
 }
 
 .project-media {
     background-color: #333;
 }
 
-.project-media .section-title {
+.gray {
+    background-color: #eee;
+}
+
+#section-services .section-title {
     padding: 50px 0;
 }
 
 .project-media .section-title h3{
     color: #fff;
+    margin: 50px 0;
 }
 
 .bio-rad .poster {
-    background-image: url("../images/portfolio/bio-rad/result.png");
+    background-image: url("../images/portfolio/bio-rad/result.jpg");
     margin-top: 0;
 }
 
 .cornell-dining .poster {
-    background-image: url("../images/portfolio/cornell-dining/hi-fi3.jpg");
+    background-image: url("../images/portfolio/cornell-dining/hi-fi3.gif");
     margin-top: 0;
 }
 
@@ -1001,23 +1006,19 @@ ul.info-list li strong {
     color: #999;
 }
 
-.summary{
-    padding-bottom: 80px;
-}
-
-.summary h3{
-    padding-top: 10px;
-}
-
 .title {
     color: #fff;
     padding-top: 50px;
     margin-bottom: -5px;
 }
+
 /* ================ Services Section ================ */
 #section-services {
     position:relative;
-    color: #333;
+    color: #fff;
+    background-color: #555;
+    margin: 0 -50px;
+    padding: 0 50px;
 }
 
 .service-desc {
@@ -1026,6 +1027,7 @@ ul.info-list li strong {
 
 .service-desc h4 {
     margin-top: 0;
+    color: #fff;
 }
 
 .section-title h3, .section-title h4 {
@@ -1034,6 +1036,7 @@ ul.info-list li strong {
     display: inline-block;
     margin-top: 0;
     padding: 8px 0;
+    color: #fff;
     
 }
 
@@ -1042,7 +1045,7 @@ ul.info-list li strong {
 }
 
 .challenges {
-    padding: 50px 65px;
+    padding: 0 65px 50px;
 }
 
 .challenges .section-title {
@@ -1065,6 +1068,7 @@ ul.info-list li strong {
 .section-step {
     background-color:#f9f9f9;
     margin: 0 -50px;
+    padding: 0 50px;
 }
 
 .step-even {
@@ -1149,13 +1153,15 @@ ul.info-list li strong {
 .iteration {
     text-align: center;
     background-color: #999;
+    margin: 0 -50px;
 }
 
 .prototype {
     text-align: center;
     background-color: #999;
-    padding: 50px 0;
+    padding: 50px;
     color: #000;
+    margin: 0 -50px;
 }
 
 .bottom {
@@ -1167,6 +1173,21 @@ ul.info-list li strong {
 .hifi{
     width: 100%;
 }
+
+.summary{
+    padding: 40px 0;
+    background-color: #eee;
+    color: #000;
+}
+
+.summary h3{
+    padding-top: 10px;
+}
+
+.summary .step-title {
+    color: #000;
+}
+
 /* -------------------------
         6. RESUME BLOCK
 ------------------------- */
@@ -1869,6 +1890,15 @@ ul.info-list li strong {
     }
 }
 
+@media (max-width: 991px) {
+    .step-img {
+        display: none;
+    }
+    .step-no {
+        margin-bottom: 20px;
+    }
+}
+
 @media (min-width:981px) and (max-width:1024px) {
 
     .name-block {
@@ -1965,15 +1995,6 @@ ul.info-list li strong {
 	
 	.project {
 		width: 50%;
-    }
-
-    h2.portfolio.menu-item:before, 
-    h2.portfolio.menu-item{
-        color: #333;
-    }
-
-    h2.portfolio.menu-item:after {
-        background: #333;
     }
 
     .d3Chart {
@@ -2122,6 +2143,9 @@ ul.info-list li strong {
 
     .inline-menu li {
         padding: 0 9px;
+    }
+    .footer {
+        display: none;
     }
 }
 
