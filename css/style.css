@@ -32,7 +32,7 @@ a:hover, a:focus {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     text-align: center;
     height: auto;
 }
@@ -512,6 +512,7 @@ ul.info-list li strong {
 }
 
 .progress-bar-label span {
+    color: #F34452;
     font-weight: 400;
 }
 
@@ -973,21 +974,26 @@ ul.info-list li strong {
 }
 
 .yelp-ux .poster {
-    background-image: url("../images/portfolio/yelp-ux/showcase.png");
+    background-image: url("../images/portfolio/yelp-ux/showcase.gif");
     margin-top: 0;
 }
 
 .sara .poster {
-    background-image: url("../images/portfolio/sara/poster.png");
+    background-image: url("../images/portfolio/sara/poster.gif");
     margin-top: 0;
 }
 
 .actually .poster {
-    background-image: url("../images/portfolio/actually/final.png");
+    background-image: url("../images/portfolio/actually/final.gif");
     margin-top: 0;
 }
 
-.bio-rad, .cornell-dining, .epiclogue, .yelp-ux, .sara, .actually{
+.yumso .poster {
+    background-image: url("../images/portfolio/yumso/header.gif");
+    margin-top: 0;
+}
+
+.bio-rad, .cornell-dining, .epiclogue, .yelp-ux, .sara, .actually, .yumso{
     padding-top: 0 !important;
 }
 .prev, .next{
