@@ -2212,4 +2212,8 @@ ul.info-list li strong {
     .content {
         padding: 100px 20px 0;
     }
+
+    .poster, .project-media {
+        margin: 0 -20px;
+    }
 }
