@@ -2198,10 +2198,14 @@ ul.info-list li strong {
     }
 
     .inline-menu li {
-        padding: 0 7px;
+        padding: 0 5px;
     }
 
     .d3Chart {
         display: none;
+    }
+
+    #close, #modal-close {
+        font-size: 30px;
     }
 }
