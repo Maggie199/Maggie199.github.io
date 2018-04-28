@@ -5,7 +5,7 @@ $email_address = $_POST['email'];
 $message = $_POST['message'];
 	
 // create email body and send it	
-$to = 'zn45@cornell.edu';
+$to = 'nanzhe0@gmail.com';
 $email_subject = "Contact form submitted by:  $name";
 $email_body = "You have received a new message. <br/>".
 			  "Here are the details: <br/><br/> Name: $name <br/><br/>  ".

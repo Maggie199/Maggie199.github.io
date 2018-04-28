@@ -464,6 +464,7 @@ h2.menu-item:hover:after{
 
 .sign {
     margin-top: 30px;
+    width: auto;
 }
 
 ul.info-list {
@@ -1693,12 +1694,12 @@ ul.info-list li strong {
 }
 
 .inline-menu li.active {
-    text-decoration: overline;
+    text-decoration: underline;
     cursor: pointer;
 }
 
 .inline-menu li:hover {
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 .post-modal,
