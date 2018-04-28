@@ -784,7 +784,7 @@ ul.info-list li strong {
 
 #filters > li.active {
     color: #333;
-    text-decoration: overline;
+    text-decoration: underline;
 }
 
 .isotope,
