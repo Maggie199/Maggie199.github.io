@@ -2208,4 +2208,8 @@ ul.info-list li strong {
     #close, #modal-close {
         font-size: 30px;
     }
+
+    .content {
+        padding: 100px 20px 0;
+    }
 }
