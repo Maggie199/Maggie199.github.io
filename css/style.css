@@ -2216,4 +2216,16 @@ ul.info-list li strong {
     .poster, .project-media {
         margin: 0 -20px;
     }
+
+    .challenges {
+        padding: 0 20px 50px;
+    }
+
+    .section-step {
+        padding: 0 20px;
+    }
+
+    .prototype {
+        margin: 0 -20px;
+    }
 }
