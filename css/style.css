@@ -2230,4 +2230,8 @@ ul.info-list li strong {
     .prototype {
         margin: 0 -20px;
     }
+
+    .loading-circle {
+        left: 44%;
+    }
 }
