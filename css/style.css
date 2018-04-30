@@ -1107,6 +1107,7 @@ ul.info-list li strong {
     height: 85px;
     border: 2px solid;
     border-radius: 50%;
+    margin-left: -20px;
 }
 
 .step-no .no-inner {
@@ -1903,6 +1904,7 @@ ul.info-list li strong {
     }
     .step-no {
         margin-bottom: 20px;
+        margin-left: 0;
     }
 }
 
